@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-16T18:25:07.687Z",
+  "base": "http://127.0.0.1:3100",
+  "public": false,
+  "allOk": true,
+  "results": [
+    {
+      "path": "/health",
+      "url": "http://127.0.0.1:3100/health",
+      "status": 200,
+      "ok": true,
+      "ms": 134,
+      "contentType": "application/json; charset=utf-8",
+      "snippet": "{\"ok\":true,\"protocolVersion\":\"2025-11-25\",\"transport\":\"streamable-http\",\"security\":{\"apiKeyRequired\":false,\"cors\":\"*\",\"sessionTtlMs\":1800000,\"maxSessions\":100,\"activeSessions\":2}}"
+    },
+    {
+      "path": "/legal/privacy.html",
+      "url": "http://127.0.0.1:3100/legal/privacy.html",
+      "status": 200,
+      "ok": true,
+      "ms": 11,
+      "contentType": "text/html; charset=utf-8",
+      "snippet": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\" /> <title>Hearth Privacy Policy</title> <sty"
+    },
+    {
+      "path": "/legal/terms.html",
+      "url": "http://127.0.0.1:3100/legal/terms.html",
+      "status": 200,
+      "ok": true,
+      "ms": 5,
+      "contentType": "text/html; charset=utf-8",
+      "snippet": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\" /> <title>Hearth Terms of Use</title> <style"
+    },
+    {
+      "path": "/assets/icon-72.png",
+      "url": "http://127.0.0.1:3100/assets/icon-72.png",
+      "status": 200,
+      "ok": true,
+      "ms": 6,
+      "contentType": "image/png",
+      "snippet": "bytes=293"
+    },
+    {
+      "path": "/assets/carousel-600x900.png",
+      "url": "http://127.0.0.1:3100/assets/carousel-600x900.png",
+      "status": 200,
+      "ok": true,
+      "ms": 5,
+      "contentType": "image/png",
+      "snippet": "bytes=9095"
+    }
+  ],
+  "videoCue": "Record 10–15s in browser: open /health, then /legal/privacy.html, then /assets/icon-72.png"
+}

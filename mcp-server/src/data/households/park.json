@@ -1,0 +1,26 @@
+{
+  "householdId": "hh-park",
+  "name": "Park Apartment",
+  "timezone": "America/New_York",
+  "members": [
+    {
+      "id": "m-sam",
+      "name": "Sam",
+      "role": "adult",
+      "preferences": ["sci-fi", "cooking shows", "late dinners"],
+      "constraints": ["neighbors below — keep bass low after 9pm"]
+    },
+    {
+      "id": "m-riley",
+      "name": "Riley",
+      "role": "adult",
+      "preferences": ["yoga", "indie films", "board games"],
+      "constraints": ["early standup tomorrow — wrap by 10:30pm"]
+    }
+  ],
+  "sharedPreferences": ["apartment-friendly volume", "quick clean-up", "quality over quantity"],
+  "accessibilityNotes": [
+    "Use headphones for loud scenes if needed",
+    "Keep hallway clear (narrow apartment)"
+  ]
+}

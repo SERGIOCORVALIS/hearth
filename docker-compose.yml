@@ -1,0 +1,30 @@
+services:
+  hearth:
+    build: .
+    ports:
+      - "3100:3100"
+      - "8787:8787"
+    environment:
+      MCP_HOST: "0.0.0.0"
+      MCP_PORT: "3100"
+      SIM_API_HOST: "0.0.0.0"
+      SIM_API_PORT: "8787"
+      MCP_URL: "http://127.0.0.1:3100/mcp"
+      SERVE_STATIC: "1"
+      HEARTH_FORCE_OFFLINE: "1"
+      # Optional Bedrock:
+      # AWS_REGION: us-east-1
+      # AWS_ACCESS_KEY_ID: ...
+      # AWS_SECRET_ACCESS_KEY: ...
+      # HEARTH_FORCE_OFFLINE: "0"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:3100/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 10s
+      timeout: 3s
+      retries: 5

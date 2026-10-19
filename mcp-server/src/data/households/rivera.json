@@ -1,0 +1,48 @@
+{
+  "householdId": "hh-rivera",
+  "name": "Rivera Household",
+  "timezone": "America/Los_Angeles",
+  "members": [
+    {
+      "id": "m-alex",
+      "name": "Alex",
+      "role": "adult",
+      "preferences": ["documentaries", "cooking", "low-noise evenings"],
+      "constraints": ["work laptop after 9pm is off-limits"]
+    },
+    {
+      "id": "m-jordan",
+      "name": "Jordan",
+      "role": "adult",
+      "preferences": ["comedy", "board games", "short workouts"],
+      "constraints": ["no horror"]
+    },
+    {
+      "id": "m-maya",
+      "name": "Maya",
+      "role": "child",
+      "preferences": ["animation", "drawing", "dance breaks"],
+      "constraints": ["screen time ends by 8:00pm on school nights"]
+    },
+    {
+      "id": "m-leo",
+      "name": "Leo",
+      "role": "child",
+      "preferences": ["Lego builds", "sports highlights", "pizza nights"],
+      "constraints": ["needs a wind-down before bed"]
+    },
+    {
+      "id": "m-elena",
+      "name": "Elena (Grandma)",
+      "role": "elder",
+      "preferences": ["classic films", "family stories", "gentle stretches"],
+      "constraints": ["large captions preferred", "avoid sudden loud audio"]
+    }
+  ],
+  "sharedPreferences": ["family-friendly", "cozy living-room setup", "snacks ready before media"],
+  "accessibilityNotes": [
+    "Enable closed captions by default for Elena",
+    "Keep pathways clear for walker access",
+    "Prefer warm lighting over bright overheads"
+  ]
+}

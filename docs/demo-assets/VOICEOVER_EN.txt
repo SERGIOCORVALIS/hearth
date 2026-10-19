@@ -1,0 +1,11 @@
+Meet Hearth — an Alexa+ living-room concierge. It plans the whole family evening through a real MCP server on Streamable HTTP.
+
+Every action is a live JSON-RPC tool call — household profile, personalized plan, reminder, and a gentle care check-in.
+
+For the Rivera household, Hearth builds a captioned classic night so Grandma Elena can follow every line — Maya and Leo get a calm wind-down.
+
+Switch households and the same MCP tools personalize again — care-first evenings for Ngozi, with accessibility notes baked into the plan card.
+
+The plan card is multimodal for the display. When AWS is enabled, Hearth reasons on Amazon Bedrock Converse, retrieves elder-care knowledge, and polishes a spoken briefing — and still falls back to an offline MCP router so the demo never breaks.
+
+Hearth: family entertainment plus elder care, on Alexa+ MCP — built for the living room.

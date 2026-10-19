@@ -1,0 +1,51 @@
+{
+  "householdId": "hh-okonkwo",
+  "name": "Okonkwo Home",
+  "timezone": "America/Chicago",
+  "members": [
+    {
+      "id": "m-ada",
+      "name": "Ada",
+      "role": "adult",
+      "preferences": ["gospel music", "family calls", "tea"],
+      "constraints": ["primary caregiver this week"]
+    },
+    {
+      "id": "m-chidi",
+      "name": "Chidi",
+      "role": "adult",
+      "preferences": ["soccer highlights", "grilling", "comedy"],
+      "constraints": ["night shift tomorrow"]
+    },
+    {
+      "id": "m-ngozi",
+      "name": "Ngozi (Grandma)",
+      "role": "elder",
+      "preferences": ["old Nollywood classics", "soft hymns", "photo albums"],
+      "constraints": [
+        "large captions",
+        "high-contrast UI",
+        "avoid sudden loud audio",
+        "prefer seated activities"
+      ]
+    },
+    {
+      "id": "m-tunde",
+      "name": "Tunde",
+      "role": "child",
+      "preferences": ["soccer", "drawing", "story time"],
+      "constraints": ["bedtime 8:30pm on school nights"]
+    }
+  ],
+  "sharedPreferences": [
+    "multi-generational living room",
+    "respect quiet hours",
+    "care-first evenings"
+  ],
+  "accessibilityNotes": [
+    "Always enable large captions for Ngozi",
+    "Offer seated alternatives for any stretch",
+    "Keep walker path clear to the sofa",
+    "Warm lighting only"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "manifestVersion": "1.0",
+  "storeListing": {
+    "distributionCountries": ["US"],
+    "locales": {
+      "en-US": {
+        "default": "DEFAULT",
+        "name": {
+          "value": "Hearth",
+          "spokenForm": { "format": "ipa", "value": "hɑɹθ" }
+        },
+        "shortDescription": "Family evening concierge with captions, timelines, and elder care check-ins.",
+        "fullDescription": "Hearth plans living-room evenings for multi-generational households. It personalizes activities, enables accessibility captions, sets reminders, and logs gentle care check-ins through an Alexa+ MCP server.",
+        "examplePhrases": [
+          "Plan a low-key evening for the kids and grandma",
+          "Log a care check-in for Elena",
+          "Suggest a quiet school-night plan"
+        ],
+        "privacyAndCompliance": {
+          "privacyPolicyUrl": "https://PUBLIC_BASE/legal/privacy.html",
+          "termsOfUseUrl": "https://PUBLIC_BASE/legal/terms.html"
+        },
+        "mediaAssets": {
+          "icons": {
+            "light": [
+              { "size": "72x72", "uri": "https://PUBLIC_BASE/assets/icon-72.png" },
+              { "size": "64x64", "uri": "https://PUBLIC_BASE/assets/icon-64.png" },
+              { "size": "88x88", "uri": "https://PUBLIC_BASE/assets/icon-88.png" },
+              { "size": "126x126", "uri": "https://PUBLIC_BASE/assets/icon-126.png" },
+              { "size": "180x180", "uri": "https://PUBLIC_BASE/assets/icon-180.png" },
+              { "size": "241x241", "uri": "https://PUBLIC_BASE/assets/icon-241.png" }
+            ],
+            "dark": []
+          },
+          "carouselImages": [
+            {
+              "uri": "https://PUBLIC_BASE/assets/carousel-600x900.png",
+              "altText": "Hearth evening timeline with captions",
+              "size": "600x900"
+            }
+          ],
+          "bannerImages": []
+        }
+      }
+    }
+  },
+  "integrations": [
+    {
+      "type": "MCP",
+      "config": {
+        "endpoints": {
+          "default": {
+            "type": "HTTPS",
+            "uri": "https://PUBLIC_BASE/mcp"
+          }
+        }
+      }
+    }
+  ]
+}

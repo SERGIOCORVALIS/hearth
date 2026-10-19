@@ -1,0 +1,15 @@
+node_modules
+dist
+build
+coverage
+package-lock.json
+*.tsbuildinfo
+oss
+alexa-addon/assets
+alexa-addon/addon.json
+*.png
+*.jpg
+*.webp
+test-results
+playwright-report
+blob-report
