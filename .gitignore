@@ -14,3 +14,6 @@ test-results/
 playwright-report/
 blob-report/
 playwright/.cache/
+
+# Pushed separately once gh token has workflow scope
+.github/workflows/
